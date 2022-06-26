@@ -30,7 +30,7 @@ const Profile = () => {
             <span>{githubState.user.location}</span>
           </S.WrapperUserGeneric>
           <S.WrapperUserGeneric>
-            <h3>Blog:</h3>
+            <h3>Link:</h3>
             <a href={githubState.user.blog} target="_blank" rel="noreferrer">
               {githubState.user.blog}
             </a>

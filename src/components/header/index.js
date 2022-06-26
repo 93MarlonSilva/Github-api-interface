@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import * as S from "./styled";
 import useGithub from "../../hooks/github-hooks";
+import img from './image/icon.png';
 
 const Header = () => {
   const { getUser } = useGithub();
@@ -16,12 +17,13 @@ const Header = () => {
       <S.Wrapper>
         <input
           type="text"
-          placeholder="Digite o username para pesquisa..."
+          placeholder="Enter GitHub Username"
           onChange={(event) => setUsernameForSearch(event.target.value)}
         />
         <button type="submit" onClick={submitGetUser}>
-          <span>Buscar</span>
+          <span>Search</span>
         </button>
+        <img src={img} alt='header' width='50'/>
       </S.Wrapper>
     </header>
   );
