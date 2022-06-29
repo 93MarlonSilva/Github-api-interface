@@ -18,7 +18,7 @@ This repository was created in order to show how we can create a frontend applic
 
 Print of the finished project.
 
-![plot](./image/snapshot-1.png)
+![plot](./image/capa.png)
 
 ### Libraries used
 
