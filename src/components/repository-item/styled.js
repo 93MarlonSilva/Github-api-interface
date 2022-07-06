@@ -5,8 +5,9 @@ export const Wrapper = styled.div`
   padding: 8px;
   border-radius: 8px;
   border: 2px solid white;
-  margin: 16px 16px;
-  width: 338px;
+  margin: auto;
+  margin-bottom: 30px;
+  width: 328px;
   height: 150px;
   align-content: center;
   border-radius: 20px;

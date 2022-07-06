@@ -13,7 +13,7 @@ export const WrapperTabList = styled(TabList)`
   padding: 4px;
   display: flex;
   margin: 0;
-
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 170, 170), rgb(104, 106, 124));
   
 `;
 WrapperTabList.tabsRole = "TabList";
@@ -23,9 +23,10 @@ export const WrapperTab = styled(Tab)`
   border: 2px solid white;
   padding: 16px;
   user-select: none;
+  margin-top: 12px;
   cursor: pointer;
   z-index: 99999;
-  background-color: "#fff";
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 170, 170), rgb(104, 106, 124));
   margin-left: 28px;
   margin-bottom: 20px;
   

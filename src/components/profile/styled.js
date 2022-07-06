@@ -5,20 +5,18 @@ export const Wrapper = styled.div`
   align-items: flex-start;
   border: 3px solid white;
   border-radius: 10px;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 170, 170), rgb(104, 106, 124));
   min-width: 620px;
-  
-  
-  
 `;
 
 export const WrapperInfoUser = styled.div`
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
   justify-content: space-between;
   margin-left: 8px;
   border: 1px solid white;
   border-radius: 5px;
+  min-width: 500px;
   
 
   h1 {
