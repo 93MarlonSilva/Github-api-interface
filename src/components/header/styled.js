@@ -5,11 +5,11 @@ export const Wrapper = styled.div`
 
   justify-content: center;
   padding: 1rem;
-  border: 2px solid white;
+  border: 3px solid white;
   margin: auto;
   border-radius: 10px;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 170, 170), rgb(104, 106, 124));
-  min-width: 620px; 
+  min-width: 730px; 
 
 
 

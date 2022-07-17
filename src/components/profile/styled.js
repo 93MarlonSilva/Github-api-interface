@@ -6,7 +6,7 @@ export const Wrapper = styled.div`
   border: 3px solid white;
   border-radius: 10px;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 170, 170), rgb(104, 106, 124));
-  min-width: 620px;
+  min-width: 730px;
 `;
 
 export const WrapperInfoUser = styled.div`
@@ -14,7 +14,7 @@ export const WrapperInfoUser = styled.div`
   flex-direction: column;
   justify-content: space-between;
   margin-left: 8px;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 5px;
   min-width: 500px;
   
@@ -52,7 +52,9 @@ export const WrapperUserGeneric = styled.div`
   display: flex;
   align-items: center;
   margin-top: 8px;
-  border: 2px solid white;  
+  border: 3px solid white;  
+  border-radius: 5px;
+  padding: 1px;
   
 
   h3 {

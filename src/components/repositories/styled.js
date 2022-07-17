@@ -2,25 +2,25 @@ import styled from "styled-components";
 import { Tabs, TabList, Tab, TabPanel } from "react-tabs";
 
 export const WrapperTabs = styled(Tabs)`
-  font-size: 16px;
+  font-size: 18px;
   width: 100%;
-  margin-top: 16px;
-  
+  margin-top: 3px; 
 `;
 
 export const WrapperTabList = styled(TabList)`
   list-style-type: none;
-  padding: 4px;
+  padding: 8px;
   display: flex;
-  margin: 0;
+  margin-bottom: 6px;
+  border: 3px solid white;
+  border-radius: 10px;
   background-image: linear-gradient(rgb(255, 255, 255), rgb(170, 170, 170), rgb(104, 106, 124));
-  
 `;
 WrapperTabList.tabsRole = "TabList";
 
 export const WrapperTab = styled(Tab)`
   border-radius: 16px;
-  border: 2px solid white;
+  border: 3px solid white;
   padding: 16px;
   user-select: none;
   margin-top: 12px;

@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This repository was created in order to show how we can create a frontend application with reusable components.
 
-<h4>This repository is the delivery of the react project challenge Digital Innovation One</h4>
+<h4>This repository is the delivery of the react project challenge Digital Inovation One</h4>
 
 ### Features
 
