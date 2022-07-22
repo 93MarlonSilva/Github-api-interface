@@ -19,7 +19,7 @@ const Repositories = () => {
 
   return (
     <>
-      {hasUserForSearchrepos ? (
+      {hasUserForSearchrepos ? (  // Renderização dos repositórios do usuário pesquisado
         <S.WrapperTabs
           selectedTabClassName="is-selected"
           selectedTabPanelClassName="is-selected"

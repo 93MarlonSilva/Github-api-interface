@@ -1,14 +1,14 @@
 import React, { createContext, useCallback, useState } from "react";
 import api from "../services/api";
 
-export const GithubContext = createContext({
+export const GithubContext = createContext({  
   loading: false,
   user: {},
   repositories: [],
   starred: [],
 });
 
-const GithubProvider = ({ children }) => {
+const GithubProvider = ({ children }) => {             // Função para pegar os dados do github
   const [githubState, setGithubState] = useState({
     hasUser: false,
     loading: false,

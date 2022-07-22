@@ -13,7 +13,7 @@ const Header = () => {
     return getUser(usernameForSearch);
   };
 
-  return (
+  return (  // Renderização dos itens da tela inicial de pesquisa, botão, input..
     <header>
       <S.Wrapper>
       <a alt='HOME' href="http://localhost:3000/">

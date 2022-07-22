@@ -2,10 +2,10 @@ import React from "react";
 import useGithub from "../../hooks/github-hooks";
 import * as S from "./styled";
 
-const Profile = () => {
+const Profile = () => {  
   const { githubState } = useGithub();
 
-  return (
+  return ( // Renderização dos dados do usuário pesquisado
     <S.Wrapper>
       <S.WrapperImage src={githubState.user.avatar} alt="Avatar of user" />
       <S.WrapperInfoUser>

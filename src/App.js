@@ -5,7 +5,7 @@ import Profile from "./components/profile";
 import Repositories from "./components/repositories";
 import useGithub from "./hooks/github-hooks";
 
-const App = () => {
+const App = () => {   // Renderização dos itens que o app entrega
   const { githubState } = useGithub();
   return (
     <Layout>
